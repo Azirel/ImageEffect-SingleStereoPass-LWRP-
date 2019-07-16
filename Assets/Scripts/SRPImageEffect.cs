@@ -2,6 +2,7 @@
 using UnityEngine.Rendering;
 using UnityEngine.Rendering.PostProcessing;
 
+[ExecuteInEditMode]
 public class BasicPipeInstance : RenderPipeline
 {
 	private Color m_ClearColor = Color.black;

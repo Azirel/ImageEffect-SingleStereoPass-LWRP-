@@ -1,0 +1,272 @@
+fileFormatVersion: 2
+guid: 5b9d4b519d96d674f84e0cdfac4cce3a
+ModelImporter:
+  serializedVersion: 23
+  fileIDToRecycleName:
+    100000: Alien
+    100002: AlienHead
+    100004: AlienHeadBone001
+    100006: AlienHeadBone002
+    100008: AlienHeadBone003
+    100010: AlienLArm1
+    100012: AlienLArm2
+    100014: AlienLArmCollarbone
+    100016: AlienLArmDigit01
+    100018: AlienLArmDigit02
+    100020: AlienLArmDigit03
+    100022: AlienLArmDigit11
+    100024: AlienLArmDigit12
+    100026: AlienLArmDigit13
+    100028: AlienLArmDigit21
+    100030: AlienLArmDigit22
+    100032: AlienLArmDigit23
+    100034: AlienLArmDigit31
+    100036: AlienLArmDigit32
+    100038: AlienLArmDigit33
+    100040: AlienLArmPalm
+    100042: AlienLLeg1
+    100044: AlienLLeg2
+    100046: AlienLLegDigit01
+    100048: AlienLLegDigit02
+    100050: AlienLLegDigit11
+    100052: AlienLLegDigit12
+    100054: AlienLLegPalm
+    100056: AlienLLegPlatform
+    100058: AlienPalmBone001
+    100060: AlienPalmBone001 1
+    100062: AlienPalmBone001Bone001
+    100064: AlienPalmBone001Bone001 1
+    100066: AlienPelvis
+    100068: AlienRArm1
+    100070: AlienRArm2
+    100072: AlienRArmCollarbone
+    100074: AlienRArmDigit01
+    100076: AlienRArmDigit02
+    100078: AlienRArmDigit03
+    100080: AlienRArmDigit11
+    100082: AlienRArmDigit12
+    100084: AlienRArmDigit13
+    100086: AlienRArmDigit21
+    100088: AlienRArmDigit22
+    100090: AlienRArmDigit23
+    100092: AlienRArmDigit31
+    100094: AlienRArmDigit32
+    100096: AlienRArmDigit33
+    100098: AlienRArmPalm
+    100100: AlienRibcage
+    100102: AlienRLeg1
+    100104: AlienRLeg2
+    100106: AlienRLegDigit01
+    100108: AlienRLegDigit02
+    100110: AlienRLegDigit11
+    100112: AlienRLegDigit12
+    100114: AlienRLegPalm
+    100116: AlienRLegPlatform
+    100118: AlienSpine
+    100120: AlienSpine1
+    100122: AlienSpine2
+    100124: AlienSpine3
+    100126: AlienSpine4
+    100128: AlienSpine5
+    100130: AlienTail1
+    100132: AlienTail2
+    100134: AlienTail3
+    100136: AlienTail4
+    100138: AlienTail5
+    100140: //RootNode
+    100142: Monkey
+    400000: Alien
+    400002: AlienHead
+    400004: AlienHeadBone001
+    400006: AlienHeadBone002
+    400008: AlienHeadBone003
+    400010: AlienLArm1
+    400012: AlienLArm2
+    400014: AlienLArmCollarbone
+    400016: AlienLArmDigit01
+    400018: AlienLArmDigit02
+    400020: AlienLArmDigit03
+    400022: AlienLArmDigit11
+    400024: AlienLArmDigit12
+    400026: AlienLArmDigit13
+    400028: AlienLArmDigit21
+    400030: AlienLArmDigit22
+    400032: AlienLArmDigit23
+    400034: AlienLArmDigit31
+    400036: AlienLArmDigit32
+    400038: AlienLArmDigit33
+    400040: AlienLArmPalm
+    400042: AlienLLeg1
+    400044: AlienLLeg2
+    400046: AlienLLegDigit01
+    400048: AlienLLegDigit02
+    400050: AlienLLegDigit11
+    400052: AlienLLegDigit12
+    400054: AlienLLegPalm
+    400056: AlienLLegPlatform
+    400058: AlienPalmBone001
+    400060: AlienPalmBone001 1
+    400062: AlienPalmBone001Bone001
+    400064: AlienPalmBone001Bone001 1
+    400066: AlienPelvis
+    400068: AlienRArm1
+    400070: AlienRArm2
+    400072: AlienRArmCollarbone
+    400074: AlienRArmDigit01
+    400076: AlienRArmDigit02
+    400078: AlienRArmDigit03
+    400080: AlienRArmDigit11
+    400082: AlienRArmDigit12
+    400084: AlienRArmDigit13
+    400086: AlienRArmDigit21
+    400088: AlienRArmDigit22
+    400090: AlienRArmDigit23
+    400092: AlienRArmDigit31
+    400094: AlienRArmDigit32
+    400096: AlienRArmDigit33
+    400098: AlienRArmPalm
+    400100: AlienRibcage
+    400102: AlienRLeg1
+    400104: AlienRLeg2
+    400106: AlienRLegDigit01
+    400108: AlienRLegDigit02
+    400110: AlienRLegDigit11
+    400112: AlienRLegDigit12
+    400114: AlienRLegPalm
+    400116: AlienRLegPlatform
+    400118: AlienSpine
+    400120: AlienSpine1
+    400122: AlienSpine2
+    400124: AlienSpine3
+    400126: AlienSpine4
+    400128: AlienSpine5
+    400130: AlienTail1
+    400132: AlienTail2
+    400134: AlienTail3
+    400136: AlienTail4
+    400138: AlienTail5
+    400140: //RootNode
+    400142: Monkey
+    2100000: 01 - Default
+    2100002: 02 - Default
+    2100004: 03 - Default
+    2100006: 07 - Default
+    2100008: 08 - Default
+    4300000: Monkey
+    7400000: Congratulations
+    9500000: //RootNode
+    13700000: Monkey
+  externalObjects: {}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: Congratulations
+      takeName: Take 001
+      firstFrame: 10
+      lastFrame: 70
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    previousCalculatedGlobalScale: 0.01
+    hasPreviousCalculatedGlobalScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
