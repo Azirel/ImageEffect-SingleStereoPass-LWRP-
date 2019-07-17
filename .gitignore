@@ -1,4 +1,6 @@
-[Ll]ibrary/
+**/[Ll]ibrary/*
+!**/Library/PackageCache/
+!**/Library/PackageCache/
 [Tt]emp/
 [Oo]bj/
 [Bb]uild/
