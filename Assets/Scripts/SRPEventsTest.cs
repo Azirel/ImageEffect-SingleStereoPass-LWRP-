@@ -8,9 +8,16 @@ using UnityEngine.Rendering.LWRP;
 [ExecuteInEditMode]
 public class SRPEventsTest : MonoBehaviour
 {
-	public UnityEngine.Rendering.CameraEvent CameraEvent;
+	public CameraEvent CameraEvent;
+	public Camera Camera;
+	public Material ImageEffectMaterial;
+
 	public void Start()
 	{
+		CommandBuffer cmd = new CommandBuffer();
+		//Camera.activeTexture
+		cmd.Blit(Camera.activeTexture, Camera.activeTexture, ImageEffectMaterial);
+		Camera.AddCommandBuffer(CameraEvent.BeforeImageEffects, cmd);
 	}
 
 	protected void OnEnable()
@@ -49,10 +56,10 @@ public class SRPEventsTest : MonoBehaviour
 	private void RenderPipeline_beginCameraRendering(Camera camera)
 	{
 		//print("beginCameraRendering");obj.
-		var cmds = camera.GetCommandBuffers(CameraEvent);
-		CommandBuffer newcmd = new CommandBuffer();
+		//var cmds = camera.GetCommandBuffers(CameraEvent);
+		//CommandBuffer newcmd = new CommandBuffer();
 		//camera.AddCommandBuffer(CameraEvent.BeforeImageEffects, newcmd);
-		camera.AddCommandBuffer(CameraEvent.AfterEverything, newcmd);
+		//camera.AddCommandBuffer(CameraEvent.AfterEverything, newcmd);
 		print(string.Format("Camera: [{0}] has {1}", camera.name, camera.GetCommandBuffers(CameraEvent).Length));
 		//print()
 		//print(obj.activeTexture.width);
