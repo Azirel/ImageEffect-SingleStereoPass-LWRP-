@@ -166,7 +166,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 3
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &647031412
 GameObject:
@@ -192,7 +192,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 647031412}
-  m_Enabled: 0
+  m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: eaacb770d533b5446951c567a62b0d9c, type: 3}
   m_Name: 
@@ -200,6 +200,7 @@ MonoBehaviour:
   CameraEvent: 18
   Camera: {fileID: 849660026}
   ImageEffectMaterial: {fileID: 2100000, guid: 70d74396373b4344c9b0ceae17619fb5, type: 2}
+  ImageEffectShader: {fileID: 4800000, guid: b80b14d90271a974ebd9ce7f3be3a29f, type: 3}
 --- !u!4 &647031414
 Transform:
   m_ObjectHideFlags: 0
@@ -212,7 +213,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 2
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &849660024
 GameObject:
@@ -226,6 +227,7 @@ GameObject:
   - component: {fileID: 849660026}
   - component: {fileID: 849660025}
   - component: {fileID: 849660028}
+  - component: {fileID: 849660029}
   m_Layer: 0
   m_Name: Camera[Test]
   m_TagString: Untagged
@@ -276,7 +278,7 @@ Camera:
   m_RenderingPath: -1
   m_TargetTexture: {fileID: 0}
   m_TargetDisplay: 0
-  m_TargetEye: 0
+  m_TargetEye: 3
   m_HDR: 1
   m_AllowMSAA: 1
   m_AllowDynamicResolution: 0
@@ -359,7 +361,25 @@ MonoBehaviour:
   m_BeforeStackBundles:
   - assemblyQualifiedName: UnityEngine.Rendering.PostProcessing.MobileBloomLWRP, Assembly-CSharp,
       Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
-  m_AfterStackBundles: []
+  m_AfterStackBundles:
+  - assemblyQualifiedName: Grayscale, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
+      PublicKeyToken=null
+--- !u!111 &849660029
+Animation:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 849660024}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Animation: {fileID: 7400000, guid: 6a69f2060cbaced4fbaedc406114eca7, type: 2}
+  m_Animations:
+  - {fileID: 7400000, guid: 6a69f2060cbaced4fbaedc406114eca7, type: 2}
+  m_WrapMode: 0
+  m_PlayAutomatically: 1
+  m_AnimatePhysics: 0
+  m_CullingType: 0
 --- !u!1 &1477119613
 GameObject:
   m_ObjectHideFlags: 0

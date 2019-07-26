@@ -4,6 +4,7 @@ using UnityEngine;
 using UnityEngine.Experimental.Rendering;
 using UnityEngine.Rendering;
 using UnityEngine.Rendering.LWRP;
+using UnityEngine.Rendering.PostProcessing;
 
 [ExecuteInEditMode]
 public class SRPEventsTest : MonoBehaviour
@@ -11,6 +12,7 @@ public class SRPEventsTest : MonoBehaviour
 	public CameraEvent CameraEvent;
 	public Camera Camera;
 	public Material ImageEffectMaterial;
+	public Shader ImageEffectShader;
 
 	public void Start()
 	{
@@ -22,7 +24,12 @@ public class SRPEventsTest : MonoBehaviour
 
 	private void ScriptableRenderPass_OnPostProcessEvent(CommandBuffer cmd, ref CameraData data, RenderTextureDescriptor sourceDescriptor, RenderTargetIdentifier sourceIdentifier, RenderTargetIdentifier destinationIdentifier, bool opaqOnly, bool flip)
 	{
-		
+		//cmd.SetGlobalTexture("_MainTex", sourceIdentifier);
+		PropertySheetFactory fact = new PropertySheetFactory();
+		fact.Get(ImageEffectShader);
+		cmd.BlitFullscreenTriangle(sourceIdentifier, destinationIdentifier, fact.Get(ImageEffectShader), 0);
+		//cmd.BlitFullscreenTriangle()
+		//print("ScriptableRenderPass_OnPostProcessEvent");
 	}
 
 	protected void OnEnable()
